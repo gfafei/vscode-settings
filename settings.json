@@ -1,0 +1,118 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "search.smartCase": true,
+    "gitlens.views.commits.files.layout": "tree",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "never"
+    },
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Monokai",
+    "git.autofetch": true,
+    "window.restoreWindows": "none",
+    "workbench.editor.enablePreview": false,
+    "editor.bracketPairColorization.enabled": true,
+    "git.enableSmartCommit": true,
+    "editor.tabSize": 2,
+    "eslint.rules.customizations": [
+        // { "rule": "prettier/prettier", "severity": "info" }
+    ],
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-k>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-b>": false,
+        "<C-p>": false,
+    },
+    "eslint.useESLintClass": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.codeAction.showDocumentation": {},
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "eslint.format.enable": true,
+    "git.confirmSync": false,
+    "vim.normalModeKeyBindings": [],
+    "vim.overrideCopy": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+        // "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "stylelint.snippet": [
+        "css",
+        "less",
+        "postcss",
+        "scss"
+    ],
+    "vim.operatorPendingModeKeyBindingsNonRecursive": [],
+    // "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.accessibilitySupport": "off",
+    "files.eol": "\n",
+    "gitlens.views.branches.branches.layout": "list",
+    "remote.SSH.remotePlatform": {
+        "office": "linux",
+        "index": "linux",
+        "second": "linux"
+    },
+    "vim.easymotion": true,
+    "vim.camelCaseMotion.enable": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "explorer.confirmDragAndDrop": false,
+    "vim.leader": ",",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "redhat.telemetry.enabled": true,
+    "gitlens.views.commitDetails.files.layout": "tree",
+    "vim.gdefault": true,
+    "workbench.preferredLightColorTheme": "Kimbie Dark",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "editor.minimap.enabled": false,
+    "js/ts.implicitProjectConfig.target": "ESNext",
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "typescript.workspaceSymbols.scope": "currentProject",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ],
+    "eslint.debug": true,
+    "cSpell.userWords": [
+        "passcode",
+        "describedby",
+        "webclient",
+        "apac",
+        "consts",
+        "clsx",
+        "simulive",
+        "labelledby"
+    ],
+    "workbench.settings.applyToAllProfiles": [],
+    "cSpell.dictionaryDefinitions": [],
+    "workbench.editor.empty.hint": "hidden",
+    "terminal.integrated.automationProfile.windows": {},
+    "vim.foldfix": true,
+    "vim.useSystemClipboard": true,
+    "eslint.options": {},
+    "window.zoomLevel": 1,
+    "scm.showOutgoingChanges": "never",
+    "search.exclude": {
+        "**/dist/*": true
+    },
+    "git.enableStatusBarSync": false,
+    "scm.showIncomingChanges": "never",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "gitlens.views.commits.avatars": false,
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "editor.stickyScroll.enabled": false,
+    "gitlens.plusFeatures.enabled": false,
+}
