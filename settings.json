@@ -13,9 +13,6 @@
     "editor.bracketPairColorization.enabled": true,
     "git.enableSmartCommit": true,
     "editor.tabSize": 2,
-    "eslint.rules.customizations": [
-        // { "rule": "prettier/prettier", "severity": "info" }
-    ],
     "vim.handleKeys": {
         "<C-f>": false,
         "<C-k>": false,
@@ -23,45 +20,94 @@
         "<C-v>": false,
         "<C-b>": false,
         "<C-p>": false,
+        "<C-e>": false,
+        "<C-n>": true,
+        "<C-q>": false,
     },
-    "eslint.useESLintClass": true,
-    "eslint.alwaysShowStatus": true,
-    "eslint.codeAction.showDocumentation": {},
-    "[javascript]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
-    "eslint.format.enable": true,
-    "git.confirmSync": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
     "vim.normalModeKeyBindings": [],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "commands": [
+                "undo"
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                "redo"
+            ]
+        },
+        {
+            "before": [
+                "t",
+                "n"
+            ],
+            "commands": [
+                ":tabnext"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "r"
+            ],
+            "commands": [
+                "workbench.action.quickOpenLeastRecentlyUsedEditorInGroup"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "h"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": ["<Leader>", "g", "f"],
+            "commands": ["workbench.files.action.showActiveFileInExplorer"]
+        },
+        {
+            "before": ["<Leader>", "g", "t"],
+            "commands": ["workbench.action.terminal.toggleTerminal"]
+        }
+    ],
+    "git.confirmSync": false,
     "vim.overrideCopy": false,
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-        // "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
     "[scss]": {
         "editor.defaultFormatter": "vscode.css-language-features"
     },
-    "stylelint.snippet": [
-        "css",
-        "less",
-        "postcss",
-        "scss"
-    ],
     "vim.operatorPendingModeKeyBindingsNonRecursive": [],
-    // "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.accessibilitySupport": "off",
     "files.eol": "\n",
     "gitlens.views.branches.branches.layout": "list",
     "remote.SSH.remotePlatform": {
         "office": "linux",
-        "index": "linux",
         "second": "linux"
     },
     "vim.easymotion": true,
     "vim.camelCaseMotion.enable": true,
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "explorer.confirmDragAndDrop": false,
-    "vim.leader": ",",
+    "vim.leader": "<Space>",
     "zenMode.hideLineNumbers": false,
     "zenMode.hideStatusBar": false,
     "redhat.telemetry.enabled": true,
@@ -99,7 +145,6 @@
     "terminal.integrated.automationProfile.windows": {},
     "vim.foldfix": true,
     "vim.useSystemClipboard": true,
-    "eslint.options": {},
     "window.zoomLevel": 1,
     "scm.showOutgoingChanges": "never",
     "search.exclude": {
